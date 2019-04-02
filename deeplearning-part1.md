@@ -173,6 +173,101 @@ never sure we have found the best element
 - if network has s(j) units in layer j, s(j+1) units in layer j+1, then theta(j) will be of dimension s(j+1) X [s(j)+1]
 <font color=red>*TTT*</font>
 
+## Regression
+
+### 2.2 Neural networks
+
+### 2.2.4 Cost Function
+
+## 3. Classification
+
+>Email: spam/Not Spam ?
+> Online Transactions: Fraudulent (Yes? No?)
+>Tumor: Mailgant ?begin ?
+>y - {0,1}
+
+### 3.1 (Logistic Regression) Classification
+### Hypothesis Representation
+
+- Logistic Regression Model
+- Sigmoid function
+- Logistic function
+
+* Interpretation of Hypothesis output
+
+### 3.1.2 Decision Boundary
+
+* Logistic Regression
+
+* Decision Boundary
+
+### 3.1.3 Cost Function
+* Training Set:
+* How to choose parameters ?
+
+* Logistic Regression cost function
+
+### 3.1.4 Learning by Gradient Descent
+- gradient descent for classification
+-
+
+### 3.1.5 Multi-Class classification: One vs All
+* Multi-class Classification
+> Email foldering / tagging: work, friends, family, hobby
+>Medical diagrams: Not ill, Cold, flu
+>Weather: sunny, cloudy, rain, snow
+
+### 3.2 Neural Networks for classification
+### 3.2.1 Multi-Output Neural Networks
+
+* Multi-output neural networks
+* Gradient Computation
+
+### 3.2.2 Back propagation
+
+## Practical Memo for using Machine learning
+
+### 4.1 Summary
+- Fundamental Choices
+- Hypothesis/Model/Function ?
+- Parameters ?
+- Cost Function ?
+- Learning Algorithm ?
+
+- Analyse your machine learning problem
+1. Which type of machine learning ?
+- > supervised learning
+- > unsupervised learning
+- > recommender systems
+- > reinforcement learning
+2. unsupervised learning
+- > clustering ==> K-means
+- > Dimensionality ==> PCA
+- > Anomaly detection ==> Gaussian Models
+- > Generative models ==> Convolutional NN
+3. supervised learning
+- > Regression
+- > Classification
+- >> learning model
+- >>> logistic regression
+- >>>> gradient descent
+- >>> Neural Network
+- >>>> Back Propagation
+
+### 4.2 Debugging your algorithm
+- Debugging a learning algorithm
+suppose you have implemented linear regression to predict hosing price, however, when you test you hypothesis on a new set of houses, you find that it makes unacceptably large errors in its predictions, what should you try next ?
+- get more training examples
+- try smaller set of features
+- try getting additional features
+
+### Evaluation a hypothesis
+
+- model selection
+- Train / Validation / Test Error
+**Training Error**
+- Cross Validation error
+- Test error
 
 
 
@@ -182,28 +277,9 @@ never sure we have found the best element
 
 
 
-# New Features!
-
-  - Import a HTML file and watch it magically convert to Markdown
-  - Drag and drop images (requires your Dropbox account be linked)
 
 
-You can also:
-  - Import and save files from GitHub, Dropbox, Google Drive and One Drive
-  - Drag and drop markdown and HTML files into Dillinger
-  - Export documents as Markdown, HTML and PDF
 
->>hhhh
-
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
-
-This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
 
 ### Tech
 
@@ -277,16 +353,6 @@ Verify the deployment by navigating to your server address in your preferred bro
 ```
 
 
-
-### Todos
-
- - Write MORE Tests
- - Add Night Mode
-
-License
-----
-
-MIT
 
 
 **Free Software, Hell Yeah!**
